@@ -4,7 +4,7 @@ import { Contact } from "./pages/Contact";
 import { Header } from "./components/Header";
 import { Route, Routes } from "react-router-dom";
 
-function App() {
+export const App: React.FC = () => {
   return (
     <>
       <Header />
@@ -15,6 +15,6 @@ function App() {
       </Routes>
     </>
   );
-}
+};
 
-export default App;
+// export default App;

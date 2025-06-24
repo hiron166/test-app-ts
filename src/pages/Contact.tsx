@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import "../App.css";
 import { ContactForm } from "../types/ContactForm";
 
-export const Contact = () => {
+export const Contact: React.FC = () => {
   const defaultValues = {
     name: "",
     email: "",

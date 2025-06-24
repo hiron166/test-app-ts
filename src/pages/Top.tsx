@@ -4,7 +4,7 @@ import { posts } from "../data/posts";
 import { Link } from "react-router-dom";
 import { Post } from "../types/Post";
 
-export const Top = () => {
+export const Top: React.FC = () => {
   const [post, setPost] = useState<Post[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
 

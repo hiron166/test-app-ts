@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../App.css";
 
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
     <>
       <header className="flex justify-between p-6 bg-[#333] text-[#fff] font-bold">
