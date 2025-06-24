@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "../App.css";
-import { ContactForm } from "../custom";
+import { ContactForm } from "../types/ContactForm";
 
 export const Contact = () => {
   const defaultValues = {

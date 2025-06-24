@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../App.css";
 import { posts } from "../data/posts";
 import { Link } from "react-router-dom";
-import { Post } from "../custom";
+import { Post } from "../types/Post";
 
 export const Top = () => {
   const [post, setPost] = useState<Post[]>([]);

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Post } from "../custom";
+import { Post } from "../types/Post";
 
 export const Detail = () => {
   const { id } = useParams<string>();
